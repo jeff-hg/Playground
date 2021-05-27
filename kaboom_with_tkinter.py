@@ -1,5 +1,6 @@
 import tkinter as tk
 
+
 class Application(tk.Frame):
     def __init__(self, master):
         # We are inheriting methods from the 
@@ -21,6 +22,7 @@ class Application(tk.Frame):
     def explosion():
         """ This method explodes"""
         print("KABOOM!")
+
 
 if __name__ == "__main__":
     # Create window and set it to root
