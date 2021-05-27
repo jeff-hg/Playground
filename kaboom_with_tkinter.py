@@ -1,6 +1,4 @@
 import tkinter as tk
-from typing import Set
-
 
 class Application(tk.Frame):
     def __init__(self, master):
